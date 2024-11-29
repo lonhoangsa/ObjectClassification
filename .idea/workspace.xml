@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="387f0cdd-50cd-4a75-938c-e2d1c85e0a64" name="Changes" comment="" />
+    <list default="true" id="387f0cdd-50cd-4a75-938c-e2d1c85e0a64" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageClassification/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageClassification/Main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +13,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2pTDL4BYBfcF6ZaNQ4u36LR5foB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -23,6 +26,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/k0d3/Project1",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -44,6 +49,10 @@
       <option name="presentableId" value="Default" />
       <updated>1732781112549</updated>
       <workItem from="1732781113626" duration="2000" />
+      <workItem from="1732860760826" duration="50000" />
+      <workItem from="1732860812808" duration="30000" />
+      <workItem from="1732861808767" duration="25000" />
+      <workItem from="1732861835221" duration="64000" />
     </task>
     <servers />
   </component>
