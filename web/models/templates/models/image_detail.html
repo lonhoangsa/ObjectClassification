@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Prediction</title>
+</head>
+<body>
+    <h1>Image Prediction</h1>
+    <h2>Original Image</h2>
+    <img src="{{ image.image.url }}" alt="Original Image" style="max-width: 100%; height: auto;">
+
+    <h2>Predicted Image</h2>
+    <img src="{{ image.predicted_image.url }}" alt="Predicted Image" style="max-width: 100%; height: auto;">
+    <a href="{% url 'upload_image' %}">Upload Another Image</a>
+</body>
+</html>

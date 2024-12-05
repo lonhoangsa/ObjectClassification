@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="387f0cdd-50cd-4a75-938c-e2d1c85e0a64" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageClassification/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageClassification/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageClassification/Main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageClassification/WebInterface.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageClassification/YoloV11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/YoloV11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageClassification/YoloV5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/YoloV5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageClassification/YoloV8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/YoloV8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lonhoangsa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lonhoangsa/ObjectClassification.git&quot;,
+    &quot;accountId&quot;: &quot;6f87db8e-5bdc-426e-a053-610f2ac9ca4d&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -22,16 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/k0d3/Project1",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/k0d3/Project1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -53,6 +79,9 @@
       <workItem from="1732860812808" duration="30000" />
       <workItem from="1732861808767" duration="25000" />
       <workItem from="1732861835221" duration="64000" />
+      <workItem from="1733404152108" duration="836000" />
+      <workItem from="1733405127062" duration="35000" />
+      <workItem from="1733406374859" duration="61000" />
     </task>
     <servers />
   </component>

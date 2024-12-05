@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 
 # Tải mô hình YOLO từ PyTorch Hub (YOLOv5)
-model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # Tải YOLOv5s (model nhẹ)
+model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # Tải YOLOv5s (models nhẹ)
 
 def load_image(image_path):
     # Đọc ảnh
@@ -37,5 +37,5 @@ def run_yolo_application(image_path):
 
 
 # Sử dụng ứng dụng với ảnh
-image_path = 'D:\k0d3\Project1\ObjectClassification\Dataset\kittens-cat-cat-puppy-rush-45170.jpeg'
+image_path = '/ObjectClassification/Dataset/kittens-cat-cat-puppy-rush-45170.jpeg'
 run_yolo_application(image_path)
