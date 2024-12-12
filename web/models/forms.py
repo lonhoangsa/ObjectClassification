@@ -10,7 +10,9 @@ MODEL_CHOICES = [
     ("yolov5s", "yolov5s"),
 ]
 class ImageForm(forms.ModelForm):
-    model_choice = forms.ChoiceField(choices=MODEL_CHOICES, label='Select Model')
+
+    model_choice = forms.ChoiceField(choices=MODEL_CHOICES, label='Chọn Model')
+    image = forms.ImageField(label='Ảnh')
     class Meta:
         model = Image
         fields = ['image']

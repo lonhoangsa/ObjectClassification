@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="387f0cdd-50cd-4a75-938c-e2d1c85e0a64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/Sam1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/label.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageClassification/Main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageClassification/WebInterface.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageClassification/YoloV11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/YoloV11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageClassification/YoloV5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/YoloV5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageClassification/YoloV8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/YoloV8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/web/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/models/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/models/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/models/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/models/templates/models/image_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/models/templates/models/image_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/models/templates/models/upload_image.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/models/templates/models/upload_image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/models/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/models/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,20 +45,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/k0d3/Project1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Batch.run.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/k0d3/Project1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,6 +84,9 @@
       <workItem from="1733404152108" duration="836000" />
       <workItem from="1733405127062" duration="35000" />
       <workItem from="1733406374859" duration="61000" />
+      <workItem from="1733413041174" duration="4000" />
+      <workItem from="1733927699460" duration="2000" />
+      <workItem from="1733991432612" duration="205000" />
     </task>
     <servers />
   </component>

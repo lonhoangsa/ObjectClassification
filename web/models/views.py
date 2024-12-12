@@ -6,8 +6,6 @@ from .models import Image
 from ultralytics import YOLO
 import cv2
 
-
-
 def upload_image(request):
     if request.method == "POST":
         form = ImageForm(request.POST, request.FILES)
