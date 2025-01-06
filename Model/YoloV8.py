@@ -5,7 +5,7 @@ import cv2
 model = YOLO("yolov8x.pt")  # Sử dụng mô hình nhỏ nhất của YOLOv8
 
 # Đọc hình ảnh đầu vào
-img_path = "/ObjectClassification/Dataset/kittens-cat-cat-puppy-rush-45170.jpeg"  # Đường dẫn đến hình ảnh đầu vào
+img_path = "ObjectClassification/Model/kittens-cat-cat-puppy-rush-45170.jpeg"  # Đường dẫn đến hình ảnh đầu vào
 img = cv2.imread(img_path)
 
 # Thực hiện nhận diện với YOLOv8

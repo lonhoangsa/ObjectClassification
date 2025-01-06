@@ -1,3 +1,14 @@
 django
 ultralytics
 opencv-python
+torch
+autodistill
+numpy
+opencv-python
+supervision
+roboflow
+rf_groundingdino
+samv2
+autodistill-grounded-sam-2
+scikit-learn
+pytest

@@ -83,18 +83,61 @@
             color: #888;
             margin-top: 40px;
         }
+        .download-link {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            color: #4CAF50;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .download-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Nhận Diện Vật Thể</h1>
-        <h2>Ảnh Gốc</h2>
+        <h2>Original</h2>
         <img src="{{ image.image.url }}" alt="Original Image">
-        <p>{{ image.image_description }}</p> <!-- Added line to display image description -->
-        <h2>Ảnh Đã Xử Lý</h2>
-        <img src="{{ image.predicted_image.url }}" alt="Predicted Image">
-        <p>{{ image.predicted_image_description }}</p> <!-- Added line to display predicted image description -->
+        <a class="download-link" href="{{ image.image.url }}" download>Download Original Image</a>
+        <p>{{ image.image_description }}</p>
 
+        <h2>Predicted</h2>
+        <img src="{{ image.predicted_image.url }}" alt="Predicted Image">
+        <a class="download-link" href="{{ image.predicted_image.url }}" download>Download Predicted Image</a>
+        <p>{{ image.predicted_image_description }}</p>
+
+        {% if image.cropped_images %}
+        <h2>Cropped</h2>
+        <div class="cropped-images">
+            {% for cropped_image in image.cropped_images %}
+            <img src="{{ cropped_image }}" alt="Cropped Image">
+            <a class="download-link" href="{{ cropped_image }}" download>Download Cropped Image</a>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if image.segmented_images %}
+        <h2>Segmented</h2>
+        <div class="segmented-images">
+            {% for segmented_image in image.segmented_images %}
+            <img src="{{ segmented_image }}" alt="Segmented Image">
+            <a class="download-link" href="{{ segmented_image }}" download>Download Segmented Image</a>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if image.masked_images %}
+        <h2>Masked</h2>
+        <div class="masked-images">
+            {% for masked_image in image.masked_images %}
+            <img src="{{ masked_image }}" alt="Masked Image">
+            <a class="download-link" href="{{ masked_image }}" download>Download Masked Image</a>
+            {% endfor %}
+        </div>
+        {% endif %}
 
         <a class="btn" href="{% url 'upload_image' %}">Upload Ảnh Khác</a>
     </div>
