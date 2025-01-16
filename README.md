@@ -68,7 +68,7 @@ python web/manage.py runserver
 
 ## Liên Hệ
 
-Nếu bạn có bất kỳ câu hỏi hoặc vấn đề nào, vui lòng liên hệ qua email: [lonhoangsa@example.com](mailto:lonhoangsa@example.com).
+Nếu bạn có bất kỳ câu hỏi hoặc vấn đề nào, vui lòng liên hệ qua email: [laihoangson42@gmail.com](mailto:laihoangson42@gmail.com).
 
 ---
 
